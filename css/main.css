@@ -1,0 +1,98 @@
+
+html {
+ box-sizing: border-box;
+ background-color: white;
+ }
+
+ *, *::before, *, *::after {
+ 	box-sizing: inherit;
+ }
+
+div {
+
+width: 320px;
+position: relative;
+display: block;
+margin: 0 auto;
+padding-bottom: 3em;
+text-align: center;
+background-color: #2c3950}
+
+
+
+ header {
+ 	border: none;
+ 	color: navy;
+ 	text-align: center;
+
+ }
+
+body {
+padding: 0em;
+margin: 0em;
+background-color: #2c3950;
+width: 100%;
+display: inline-block;}
+
+
+ img {
+  width: 100%;
+border: none;
+display: block;
+transition: all 200ms linear;}
+
+  h1 {
+	top: 1em;
+	border: inline-block;
+	color: white;
+	background-color: #1a2230;
+	padding: 1em;
+	margin: 0;
+	bottom: 2em;
+	text-align: center;
+font-family: 'Contrail One', cursive;
+}
+
+
+.body {
+width: 320px;
+position: relative;
+top: 3em;
+}
+
+.brain {
+	width: 46px;
+	position: absolute;
+	top: 5em;
+	left: 8em;
+
+}
+
+
+.head-left {
+width: 125px;
+position: absolute;
+top: 0.5em;
+left: 2.2em;}
+
+.head-right {
+	width: 125px;
+	position: absolute;
+	top: 0.5em;
+	left: 10em;
+}
+
+
+.div-2 {
+	position: relative;
+	display: block;
+	background-color: #1a2230;
+	padding: 1em;
+}
+
+
+div:hover .head-left {
+left: 0em;}
+
+div:hover .head-right {
+left: 11em;}
